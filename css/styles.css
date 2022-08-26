@@ -24,8 +24,11 @@ body {
   color: var(--main-font-color);
 }
 
-/* header */
-
+/* -------------header-------------------- */
+.header > .container {
+  display: flex;
+  align-items: center;
+}
 .logo-link {
   font-family: 'Raleway';
   font-style: normal;
@@ -49,6 +52,13 @@ body {
 .contacts-list {
   padding-left: 0px;
   margin: 0px;
+  display: flex;
+}
+.nav-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-left: 50px;
 }
 .nav-link {
   font-weight: 500;
@@ -75,7 +85,7 @@ body {
 .contacts-link:focus {
   color: var(--accent-color);
 }
-/* hero */
+/*--------------- hero---------------------- */
 .hero {
   background: var(--aсcent-bgn);
 
@@ -107,7 +117,7 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-/* features */
+/*----------------------------- features----------------------- */
 
 .visually-hidden {
   position: absolute;
@@ -125,6 +135,10 @@ body {
 .features-list {
   margin-top: 0px;
   padding-left: 0px;
+  margin-bottom: 0px;
+  padding-top: 94px;
+
+  display: flex;
 }
 .features-item {
   width: 270px;
@@ -142,8 +156,23 @@ body {
   line-height: calc(24 / 14);
   color: var(--main-font-color);
 }
+/* -----------------------our-work--------------------------- */
+.our-work {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
-/* team */
+.work-list {
+  display: block;
+  display: flex;
+}
+.work-item {
+}
+/*------------------------- team------------------------------ */
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .work-title,
 .team-title {
   font-weight: 700;
@@ -152,7 +181,11 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-font-color);
-  margin: 0px;
+  margin-bottom: 50px;
+  margin-top: 0px;
+}
+.team-list {
+  display: flex;
 }
 .work-list,
 .team-list,
@@ -175,7 +208,7 @@ body {
 .team-position {
   margin: 0px;
 }
-/* footer */
+/* ------------------------footer--------------------------- */
 .footer {
   background: var(--aсcent-bgn);
 }
@@ -202,11 +235,11 @@ body {
 .tel-link:focus {
   color: var(--accent-color);
 }
-/* portfolio */
+/* ---------------------------portfolio---------------------------------- */
 .filter-btns {
   padding-left: 0px;
   margin: 94px 0px 0px 0px;
-  /* margin-bottom: 34px; */
+  display: flex;
 }
 .filter-btn {
   cursor: pointer;
@@ -228,6 +261,7 @@ body {
 .project-list {
   margin: 34px 0px 0px 0px;
   padding-left: 0px;
+  display: flex;
 }
 
 .project-title {
