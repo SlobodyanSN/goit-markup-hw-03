@@ -226,6 +226,8 @@ body {
 }
 .team-img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 .team-discription {
   text-align: center;
@@ -344,6 +346,8 @@ body {
 }
 .project-img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 .project-discripnion {
   margin-top: 20px;
