@@ -53,14 +53,17 @@ body {
   padding-left: 0px;
   margin: 0px;
   display: flex;
+  margin-left: 93px;
 }
+.nav-list :not(:last-child) {
+  margin-right: 50px;
+}
+
 .nav-link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-  margin-left: 50px;
-}
-.nav-link {
+
   font-weight: 500;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
@@ -74,7 +77,12 @@ body {
 .activ-page {
   color: var(--accent-color);
 }
-
+.contacts-list :not(:last-child) {
+  margin-right: 50px;
+}
+.contacts-list {
+  margin-left: auto;
+}
 .contacts-link {
   color: inherit;
   font-weight: 500;
